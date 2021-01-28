@@ -1,0 +1,241 @@
+*{
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+     font-family: 'kanit',sans-serif;
+     scroll-behavior: smooth;
+
+
+}
+.hole{
+     background-image: url(/images/pizza-1.jpg) ;
+     background-position: center;
+     background-size: cover;
+}
+
+.navbar{
+     background: transparent;
+     height: 80px;
+     display: flex;
+     justify-content: center;
+     font-weight: 700;
+
+}
+.navbar__container{
+     display: flex;
+     justify-content: space-between;
+     height: 80px;
+     z-index: 1;
+     width: 100%;
+     max-width: 1300px;
+     margin: 0 auto;
+     padding: 0 50px;
+     
+
+}
+#navbar__logo{
+     color:white;
+     font-size: 2rem;
+     display: flex;
+     align-items: center;
+     text-decoration: none;
+     cursor: pointer;
+     margin-left: 500px;
+     font-style: italic;
+}
+.navbar__menu{
+     
+     display: flex;
+     align-items: center;
+     list-style: none;
+
+}
+.navabar__item{
+     height: 80px;
+
+}
+.navbar_link{
+     color: white;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 100px;
+     text-decoration: none;
+     height: 100%;
+     font-size: 20px;
+     margin-right: 10px;
+     
+}
+.navbar__btn {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 0 1rem;
+     width: 100%;
+}
+.button{
+     display: flex;
+     font-weight: inherit;
+     color: white;
+     justify-content: center;
+     align-items: center;
+     text-decoration: none;
+     padding: 15px 50px;
+     height: 100%;
+     width: 100%;
+     border: none;
+     outline: none;
+     background:red;
+}
+.navbar_link:hover{
+     color: red;
+     transition: all 0.3s ease;
+}
+@media screen and (max-width:980px){
+
+}
+.Pizza{
+     height: calc(100vh - 80px);
+     max-height: 100%;
+     padding: 0rem calc((100vw - 1300px) / 2);
+
+
+}
+.con_conatiner{
+     margin-top: 25rem;
+
+}
+.Pizza_con {
+     font-size: clamp(2.5rem, 10vw, 2rem);
+     margin-bottom: 1rem;
+     letter-spacing: 3px;
+
+}
+.con_conatiner h1{
+     color: white;
+     font-weight:bold;
+     font-size: clamp(2.5rem, 50vw, 5rem);
+     margin-bottom: 1rem;
+     letter-spacing: 1px;
+}
+.con_conatiner p{
+     color: white;
+     font-size: clamp(2rem, 2.5vw, 3rem);
+     font-weight: bolder;
+     margin-bottom: 2rem;
+}
+.order_btn{
+     color:white;
+     justify-content: center;
+     background-color: red;
+     text-decoration: none;
+     padding: 1rem 4rem;
+     font-size: 1.4rem;
+}
+.pizzas{
+     height: 150vh;
+     background-position: center;
+     background-size: cover;
+
+}
+.title{
+     justify-content: center;
+     align-items: center;
+     padding: 5rem;
+     display: flex;
+     background-color: black;
+     color: white;
+}
+.title h1{
+     font-size: clamp(5rem, 10rem, 2rem);
+
+}
+.product{
+     background-color: black;
+}
+.cards{
+     display: grid;
+     grid-template-columns:3fr 3fr;
+     height: 250vh;
+     padding: 3rem calc((100vw - 1300px) / 2);
+}
+.cards img{
+     height: 300px;
+     min-width: 300px;
+     max-width: 100%;
+     box-shadow: 8px 8px #fdc500;
+}
+.column-product-1{
+     margin-left: 11rem;
+     color: white;
+}
+.column-product-1 h2 {
+     margin-top: 1rem;
+     margin-left: 3.5rem;
+}
+.column-product-1 h1 {
+     margin-left: 7rem;
+
+}
+.column-product-1 a{
+     margin-left: 1rem;
+     color: white;
+     background-color: red;
+     text-decoration: none;
+     padding: 1rem 4rem;
+     font-size: 1.4rem;
+}
+.titles{
+     background-position: center;
+     background-size: cover;
+     background-image: url(/images/featured3.jpg);
+     justify-content: center;
+     align-items: center;
+     color: white;
+     padding: 13rem;
+
+}
+.titles h1{
+     font-weight: bolder;
+     color: red;
+     font-size: clamp(5rem, 10rem, 2rem);
+}
+.titles button{
+     font-weight: bold;
+      color:black;
+     justify-content: center;
+     background-color:yellow;
+     text-decoration: none;
+     padding: 1rem 4rem;
+     font-size: 1.4rem;
+
+}
+.footer {
+     background-color: black;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     margin: 0 auto;
+}
+.footer p{
+     margin-left: 90rem;
+     font-weight: bolder;
+     font-style: italic;
+     color: white;
+}
+.column-product-1 button{
+     display: flex;
+     font-weight: inherit;
+     color: white;
+     justify-content: center;
+     align-items: center;
+     text-decoration: none;
+     padding: 15px 50px;
+     height: 100%;
+     width: 50%;
+     border: none;
+     outline: none;
+     background:red;
+     font-weight: bolder;
+
+}
