@@ -8,7 +8,7 @@
 
 }
 .hole{
-     background-image: url(/images/pizza-1.jpg) ;
+     background-image: url(pizza-1.jpg) ;
      background-position: center;
      background-size: cover;
 }
@@ -188,7 +188,7 @@
 .titles{
      background-position: center;
      background-size: cover;
-     background-image: url(/images/featured3.jpg);
+     background-image: url(featured3.jpg);
      justify-content: center;
      align-items: center;
      color: white;
