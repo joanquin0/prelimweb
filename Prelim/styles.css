@@ -72,6 +72,7 @@
      align-items: center;
      padding: 0 1rem;
      width: 100%;
+     
 }
 .button{
      display: flex;
@@ -86,6 +87,7 @@
      border: none;
      outline: none;
      background:red;
+     cursor: pointer;
 }order_btn
 .navbar_link:hover{
      color: red;
