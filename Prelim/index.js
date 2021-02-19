@@ -15,6 +15,8 @@ const x = document.getElementById("simplemodal");
           name: 'Hawaiian Paradise',
           Price: 'Price: ₱599',
           orders: 0
+      
+
      
      };
      let btn = document.querySelector('.product-1btn');
@@ -695,7 +697,7 @@ const x = document.getElementById("simplemodal");
 
           name: 'Vanilla Cream stick',
           Price: '₱250',
-          orders: 0
+          orders: 0,
      
      };
      let btn = document.querySelector('.product-12btn');
@@ -704,6 +706,7 @@ const x = document.getElementById("simplemodal");
      let item = document.querySelector('.item-12'); 
      let orders = document.querySelector('.orders-12'); 
      let Price = document.querySelector('.price-12');
+ 
 
 
      btn.addEventListener("click",()=>{
@@ -714,7 +717,14 @@ const x = document.getElementById("simplemodal");
           purchase12Details.orders = 1;
           item.innerText = purchase12Details.name;
           orders.innerText = purchase12Details.orders;
-          Price.innerText = purchase12Details.Price
+          Price.innerText = purchase12Details.Price;
+
+          purchase12Details.total = 250 ;
+          total.innerText = purchase12Details.total;
+
+          
+          
+
      })
 
 
@@ -722,32 +732,36 @@ const x = document.getElementById("simplemodal");
           purchase12Details.orders = purchase12Details.orders - 1;
           item.innerText = purchase12Details.name;
           orders.innerText = purchase12Details.orders;
+          
 
           if (btn.innerText<2) {
                btn.innerText = 'ADD TO CART';
                pbtn.style.display = 'none';
                mbtn.style.display = 'none';
-               
+               purchase12Details.total = 250 ;
+               total.innerText = purchase12Details.total;
           } else {
                btn.innerText = btn.innerText -1;
           }
+
      })
 
      pbtn.addEventListener("click",()=>{
           btn.innerText = +(btn.innerText) + 1;
 
+
           purchase12Details.orders = purchase12Details.orders + 1;
           item.innerText = purchase12Details.name;
           orders.innerText = purchase12Details.orders;
 
+
           if(btn.innerText == 5){
                pbtn.style.display = 'none';
+
                
           }
+          
+
      })
-
-
-     
-
 }
 

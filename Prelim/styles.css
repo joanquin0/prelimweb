@@ -236,9 +236,6 @@
      cursor: pointer;
      position: relative;
      display: inline;
-     
-     
-
 }
 
 
@@ -257,7 +254,8 @@
      width: 300px;
      border-radius:2rem; 
      background-color: red;
-     margin-right: 10re;
+     
+     display: none;
 
 
 
@@ -285,6 +283,7 @@
      margin-left: 4rem;
      border: none;
      margin-top: 2rem;
+     
 
      
 
@@ -297,18 +296,7 @@
      margin-top: 17rem;
 
 }
-
-.item{
-     margin-top: 1rem;
-     font-size: 17px;
-     padding-left: 20px;
-     margin-right: 30px;
-     font-style: italic;
-     color: white;
-
-}
 .modal2{
-    
      height: 130px;
      width: 2000x;
      border-radius:2rem; 
@@ -322,4 +310,8 @@
      margin-left: 1rem;
           
 
+}
+.modalitem{
+     color: white;
+     margin-left: 1rem;
 }
