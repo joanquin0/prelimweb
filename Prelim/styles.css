@@ -5,7 +5,6 @@
      font-family: 'kanit',sans-serif;
      scroll-behavior: smooth;
 
-
 }
 .hole{
      background-image: url(pizza-1.jpg) ;
@@ -19,6 +18,8 @@
      display: flex;
      justify-content: center;
      font-weight: 700;
+     
+     
 
 }
 .navbar__container{
@@ -30,7 +31,8 @@
      max-width: 1300px;
      margin: 0 auto;
      padding: 0 50px;
-     
+     position: fixed;
+     padding-left: 7rem;
 
 }
 #navbar__logo{
@@ -53,6 +55,7 @@
 .navabar__item{
      height: 80px;
 
+
 }
 .navbar_link{
      color: white;
@@ -64,33 +67,26 @@
      height: 100%;
      font-size: 20px;
      margin-right: 10px;
+     margin-left: 5.5rem;
      
 }
-.navbar__btn {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     padding: 0 1rem;
-     width: 100%;
-     
-}
-.button{
-     display: flex;
+.cartbutton{
+     margin-top:415px;
+     width: 60px ;
      font-weight: inherit;
-     color: white;
-     justify-content: center;
-     align-items: center;
-     text-decoration: none;
-     padding: 15px 50px;
-     height: 100%;
-     width: 100%;
-     border: none;
-     outline: none;
-     background:red;
+     border-radius:4rem;
      cursor: pointer;
-}order_btn
+     color: white;
+     background-color: red;
+     margin-left: 7rem;
+     margin-bottom: 1rem;
+
+
+}
+
+
 .navbar_link:hover{
-     color: red;
+     color:red;
      transition: all 0.3s ease;
 }
 @media screen and (max-width:980px){
@@ -244,6 +240,8 @@
      
 
 }
+
+
 .column-product-1 button{
      font-weight: bolder;
      outline: none;
@@ -253,4 +251,75 @@
      display: none;
      
 }
+.modal{
 
+     height: 400px;
+     width: 300px;
+     border-radius:2rem; 
+     background-color: red;
+     margin-right: 10re;
+
+
+
+   
+}
+
+.modal-content h1{  
+     font-weight: bolder;
+     font-style: italic;
+     color: white;
+     margin-left: 7.5rem;
+     
+
+}
+
+
+.modal2  button{
+     font-weight: bolder;
+     font-style: italic;
+     color: black;
+     background-color: yellow;
+     padding: 1rem 4rem;
+     border-radius:4rem;
+     cursor: pointer;
+     margin-left: 4rem;
+     border: none;
+     margin-top: 2rem;
+
+     
+
+}
+.modal-content  h2{
+     color: white;
+     font-weight: bolder;
+     font-style: italic;
+     margin-left: 1rem;
+     margin-top: 17rem;
+
+}
+
+.item{
+     margin-top: 1rem;
+     font-size: 17px;
+     padding-left: 20px;
+     margin-right: 30px;
+     font-style: italic;
+     color: white;
+
+}
+.modal2{
+    
+     height: 130px;
+     width: 2000x;
+     border-radius:2rem; 
+     background-color:red;
+     
+}
+.modal2 h2{
+     color: white;
+     font-weight: bolder;
+     font-style: italic;
+     margin-left: 1rem;
+          
+
+}
